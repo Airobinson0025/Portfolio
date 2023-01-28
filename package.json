@@ -12,9 +12,12 @@
     "@next/font": "13.1.5",
     "eslint": "8.32.0",
     "eslint-config-next": "13.1.5",
+    "framer-motion": "^8.5.4",
     "next": "13.1.5",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-simple-typewriter": "^5.0.1",
+    "react-social-icons": "^5.15.0"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
