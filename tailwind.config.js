@@ -5,7 +5,11 @@ module.exports = {
   "./components/**/*.{js,ts,jsx,tsx}",
 ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: { homemade: ['Homemade Apple', 'cursive'] , 
+      space: [ 'Space Mono', 'monospace' ],
+      garamond: ['EB Garamond', 'serif'] }
+    },
   },
   plugins: [],
 }
