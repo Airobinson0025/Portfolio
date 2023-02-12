@@ -1,5 +1,6 @@
 import Link from 'next/link'
-import Intro from './Intro'
+
+
 import './globals.css'
 
 export default function RootLayout({ children }) {
@@ -20,10 +21,11 @@ export default function RootLayout({ children }) {
             <Link className='hover:text-red-500 transition duration-200' href="/Skills">Skills</Link>
             <Link className='hover:text-red-500 transition duration-200' href="/Projects">Projects</Link>
             <Link className='hover:text-red-500 transition duration-200' href="/Contact">Contact</Link>
-            <button className='bg-transparent hover:bg-black hover:text-white font-bold py-2 px-4 border border-black hover:border-transparent rounded transition duration-300'>Resume.pdf</button>
+            <a href='Resume.pdf' download>
+              <button className='bg-transparent hover:bg-black hover:text-white font-bold py-2 px-4 border border-black hover:border-transparent rounded transition duration-300'>Resume.pdf</button>
+            </a>
           </div> 
         </div>
-        <Intro />
         <div>{children}</div>
         </body>
     </html>

@@ -3,7 +3,7 @@ import React from 'react'
 import { useTypewriter } from 'react-simple-typewriter';
 
 
-const Intro = () => {
+const Hero = () => {
   
     const [text, count] = useTypewriter({
         words:[
@@ -12,7 +12,7 @@ const Intro = () => {
             "Thank you for taking a look.",
         ],
         loop:true,
-        delaySpeed: 1800,
+        delaySpeed: 2000,
     });
   return (
     <div className='flex flex-col items-center'>
@@ -25,4 +25,4 @@ const Intro = () => {
   )
 }
 
-export default Intro;
+export default Hero;
