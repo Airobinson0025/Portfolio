@@ -15,14 +15,14 @@ export default function RootLayout({ children }) {
       <body>
         <div className='bg-white text-black  md:text-xl  font-bold flex justify-evenly items-center p-6'>
           <div>
-            <p className='font-homemade md:text-xl lg:text-3xl'>Aaron Robinson</p>
+            <p className='font-homemade md:text-3xl lg:text-4xl '>Aaron Robinson</p>
           </div>
           <div className='hover:cursor-pointer'>
             <BsMoonStarsFill size={30}/>
           </div>
           <div className='flex flex-row  items-center'>
             <a href='Resume.pdf' download>
-              <button className='bg-transparent hover:bg-red-500 hover:text-white font-bold py-2 px-4 border border-black hover:border-transparent rounded transition duration-300'>Resume.pdf</button>
+              <button className='bg-transparent hover:bg-red-500 hover:text-white hover:-translate-y-1 hover:scale-80 font-semibold py-2 px-4 border border-black hover:border-transparent rounded transition duration-300 ease-in-out'>Resume.pdf</button>
             </a>
           </div> 
         </div>
