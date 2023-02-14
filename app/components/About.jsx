@@ -3,7 +3,7 @@ import React from 'react'
 
 const About = () => {
   return (
-    <div className='flex flex-col justify-center text-center pt-24'>
+    <div className='flex flex-col justify-center text-center pt-44'>
         <h1 className='text-red-500 sm:text-2xl md:text-3xl  font-bold tracking-[4px]'>ABOUT ME</h1>
         <p className='font-garamond font-extrabold sm:text-lg md:text-2xl pt-7 sm:mx-24 md:mx-54 lg:mx-72 xl:mx-96 tracking-wide'>My name is Aaron Robinson. I am a Full-Stack Engineer that is based out of Virginia.
 
