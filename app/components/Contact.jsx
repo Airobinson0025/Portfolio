@@ -5,11 +5,11 @@ const Contact = () => {
     <div className='pt-44'>
       <h1 className='text-red-500 text-center sm:text-2xl md:text-3xl  font-bold tracking-[4px] pb-16 box-border'>CONTACT ME</h1>
       <div className='flex justify-center text-xl pb-24'>
-      <div className='flex flex-col justify-evenly leading-8 pb-40 bg-red-500 text-black px-4  font-bold font-sans rounded-l-lg shadow-md shadow-slate-800'>
-        <p className='text-3xl'>Contact Info:</p>
-        <p>Phone: 304-335-5814</p>
-        <p>Email: Airobinson0025@gmail.com</p>
-        <p>Address: 1105 Winterlake Ct Apt.203 Midlothian, Va 23113</p>
+      <div className='flex flex-col pb-40 bg-red-500 text-black px-4  font-bold font-sans rounded-l-lg shadow-md shadow-slate-800'>
+        <p className='text-3xl py-4'>Contact Info:</p>
+        <p className='text-white'>Phone: 304-335-5814</p>
+        <p className='text-white'>Email: Airobinson0025@gmail.com</p>
+        
       </div>
       <form className='font-sans flex flex-col pr-24 pl-4 py-4 shadow-md shadow-slate-800 rounded-r-lg'>
       <h2 className='font-bold font-sans md:text-3xl lg:text-4xl pb-4 '>Would love to hear from you.</h2>
